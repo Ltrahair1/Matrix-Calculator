@@ -302,6 +302,9 @@ def init():
     bclr.grid(row=4,column=2)
     bmtx.grid(row=4,column=0)
 
+    #makes the window unresizable
+    win.resizable(False,False)
+
 
 #creates the brackets that are around a matrix when displayed
 def createBracket(height,xpos,side):
