@@ -1,3 +1,7 @@
+# Author: Linus Trahair
+# Date: 12th December 2021
+# This creates the gui for the application
+
 import tkinter as tk
 import matrix 
 
